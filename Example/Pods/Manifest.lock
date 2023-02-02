@@ -1,0 +1,16 @@
+PODS:
+  - ShimmerLabelV2 (0.1.0)
+
+DEPENDENCIES:
+  - ShimmerLabelV2 (from `../`)
+
+EXTERNAL SOURCES:
+  ShimmerLabelV2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ShimmerLabelV2: b2ba5eccce57e440d6f2551c04e65d3e58a4aa6c
+
+PODFILE CHECKSUM: ee1f89209c2261ea0e3110bb6b3a44e5eeb31d83
+
+COCOAPODS: 1.11.3

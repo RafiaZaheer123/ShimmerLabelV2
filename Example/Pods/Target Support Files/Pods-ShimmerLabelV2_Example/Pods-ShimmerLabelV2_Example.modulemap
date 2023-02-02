@@ -1,0 +1,6 @@
+framework module Pods_ShimmerLabelV2_Example {
+  umbrella header "Pods-ShimmerLabelV2_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
