@@ -19,19 +19,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is testing of shimmer text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eW4-dO-vVp">
-                                <rect key="frame" x="73" y="323" width="229" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is testing " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eW4-dO-vVp" customClass="ShimmerLabe" customModule="ShimmerLabelV2">
+                                <rect key="frame" x="132.5" y="323" width="110" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="eW4-dO-vVp" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="4Qa-m7-nPi"/>
-                            <constraint firstItem="eW4-dO-vVp" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="pKr-hd-X8M"/>
+                            <constraint firstItem="eW4-dO-vVp" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="7L3-Bm-KMr"/>
+                            <constraint firstItem="eW4-dO-vVp" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="SBT-Rb-MFV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleShimmerLabe" destination="eW4-dO-vVp" id="0Z8-ft-V2H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

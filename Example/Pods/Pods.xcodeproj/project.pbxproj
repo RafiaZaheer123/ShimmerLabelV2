@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22D84FDD05364AAF0802979A3E209F4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		364C61BA298C5FAD000173DA /* ShimmerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C61B9298C5FAD000173DA /* ShimmerLabel.swift */; };
 		3E11EFC594771683374332EEB6EE34E1 /* Pods-ShimmerLabelV2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 452E3E66C4D9D9304C876009B3AE8217 /* Pods-ShimmerLabelV2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C54C59E39EDAA3FF5941112347AD8E5 /* Pods-ShimmerLabelV2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9962D81335947D40D1EF27AA246EE /* Pods-ShimmerLabelV2_Tests-dummy.m */; };
 		5CDBA5634560E5E2D3884A56BD7D1154 /* Pods-ShimmerLabelV2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1484BE109F0DC54ECBB297C4816055 /* Pods-ShimmerLabelV2_Example-dummy.m */; };
@@ -39,10 +40,11 @@
 		0DE9962D81335947D40D1EF27AA246EE /* Pods-ShimmerLabelV2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShimmerLabelV2_Tests-dummy.m"; sourceTree = "<group>"; };
 		11871510EF7EDD33B1F1EE9B2FA1125C /* Pods-ShimmerLabelV2_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShimmerLabelV2_Example-Info.plist"; sourceTree = "<group>"; };
 		145156A57FEC5944E2B71AB5E2EBA466 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2BBDDBF63605F7D0918E6A9135F92F02 /* Pods-ShimmerLabelV2_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ShimmerLabelV2_Tests"; path = Pods_ShimmerLabelV2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBDDBF63605F7D0918E6A9135F92F02 /* Pods_ShimmerLabelV2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShimmerLabelV2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE30E6A6E3C4A22FDFAD128316FB97B /* ShimmerLabelV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShimmerLabelV2.release.xcconfig; sourceTree = "<group>"; };
 		33DD81386269CA5AEFF2FEA0F921F5CD /* Pods-ShimmerLabelV2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShimmerLabelV2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		34BC5111F09598ADB8C29D8B43EC8611 /* ShimmerLabelV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShimmerLabelV2.debug.xcconfig; sourceTree = "<group>"; };
+		364C61B9298C5FAD000173DA /* ShimmerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerLabel.swift; sourceTree = "<group>"; };
 		3B0E02FB8BD317526CA4D7787B9AAF1D /* ShimmerLabelV2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ShimmerLabelV2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		451FB503A4BDAB007A3176E84916BAD8 /* ShimmerLabelV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShimmerLabelV2.modulemap; sourceTree = "<group>"; };
 		452E3E66C4D9D9304C876009B3AE8217 /* Pods-ShimmerLabelV2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShimmerLabelV2_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -51,7 +53,7 @@
 		56C59219919C3133A85AB2B1633BFBCD /* Pods-ShimmerLabelV2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShimmerLabelV2_Example.modulemap"; sourceTree = "<group>"; };
 		5E1484BE109F0DC54ECBB297C4816055 /* Pods-ShimmerLabelV2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShimmerLabelV2_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		776C80BB1F2C80676ED1C9E9DD5D0E71 /* ShimmerLabelV2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShimmerLabelV2; path = ShimmerLabelV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		776C80BB1F2C80676ED1C9E9DD5D0E71 /* ShimmerLabelV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShimmerLabelV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3C6F1FC9B4EEF70CE09127F3CDDF0D /* Pods-ShimmerLabelV2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShimmerLabelV2_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8EF39D40464E39CD01976448875E001F /* Pods-ShimmerLabelV2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShimmerLabelV2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8FF101C6675163F735739947880533EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -66,7 +68,7 @@
 		B662D72CA4BC7730B18AAAEC8F623387 /* ShimmerLabelV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShimmerLabelV2-dummy.m"; sourceTree = "<group>"; };
 		E50244A98FC1EC32503ADB00345CADD8 /* Pods-ShimmerLabelV2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShimmerLabelV2_Tests-Info.plist"; sourceTree = "<group>"; };
 		EBF7462BFEEB850262AEC0A5318CD7EF /* ShimmerLabelV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShimmerLabelV2-Info.plist"; sourceTree = "<group>"; };
-		F06294DA57C0B21312C5CE6012206CDE /* Pods-ShimmerLabelV2_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ShimmerLabelV2_Example"; path = Pods_ShimmerLabelV2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06294DA57C0B21312C5CE6012206CDE /* Pods_ShimmerLabelV2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShimmerLabelV2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F640FF54FAAD4155DF9FC9F9D81BF72F /* Pods-ShimmerLabelV2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShimmerLabelV2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +103,7 @@
 		36394AD0DEF29EFF80B69ABA97F95262 /* ShimmerLabelV2 */ = {
 			isa = PBXGroup;
 			children = (
-				364C61B8298C5E42000173DA /* New Group */,
+				364C61B8298C5E42000173DA /* Source */,
 				851C48A00FEF4C723E5EB098AC1E7BE1 /* Pod */,
 				A995505B04A48CDF5AD61DEAA79A69D9 /* Support Files */,
 			);
@@ -109,11 +111,12 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		364C61B8298C5E42000173DA /* New Group */ = {
+		364C61B8298C5E42000173DA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				364C61B9298C5FAD000173DA /* ShimmerLabel.swift */,
 			);
-			path = "New Group";
+			path = Source;
 			sourceTree = "<group>";
 		};
 		55CD9383607FF12EB64A58CCE615954F /* Development Pods */ = {
@@ -135,9 +138,9 @@
 		75B7AE043C0936AE69EE3B3F5EF91FFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F06294DA57C0B21312C5CE6012206CDE /* Pods-ShimmerLabelV2_Example */,
-				2BBDDBF63605F7D0918E6A9135F92F02 /* Pods-ShimmerLabelV2_Tests */,
-				776C80BB1F2C80676ED1C9E9DD5D0E71 /* ShimmerLabelV2 */,
+				F06294DA57C0B21312C5CE6012206CDE /* Pods_ShimmerLabelV2_Example.framework */,
+				2BBDDBF63605F7D0918E6A9135F92F02 /* Pods_ShimmerLabelV2_Tests.framework */,
+				776C80BB1F2C80676ED1C9E9DD5D0E71 /* ShimmerLabelV2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,7 +276,7 @@
 			);
 			name = ShimmerLabelV2;
 			productName = ShimmerLabelV2;
-			productReference = 776C80BB1F2C80676ED1C9E9DD5D0E71 /* ShimmerLabelV2 */;
+			productReference = 776C80BB1F2C80676ED1C9E9DD5D0E71 /* ShimmerLabelV2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C00CEE90C3DA4B08C100751526D5BAAC /* Pods-ShimmerLabelV2_Tests */ = {
@@ -292,7 +295,7 @@
 			);
 			name = "Pods-ShimmerLabelV2_Tests";
 			productName = Pods_ShimmerLabelV2_Tests;
-			productReference = 2BBDDBF63605F7D0918E6A9135F92F02 /* Pods-ShimmerLabelV2_Tests */;
+			productReference = 2BBDDBF63605F7D0918E6A9135F92F02 /* Pods_ShimmerLabelV2_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D1E28E1E0031AD63A869C114D78C7826 /* Pods-ShimmerLabelV2_Example */ = {
@@ -311,7 +314,7 @@
 			);
 			name = "Pods-ShimmerLabelV2_Example";
 			productName = Pods_ShimmerLabelV2_Example;
-			productReference = F06294DA57C0B21312C5CE6012206CDE /* Pods-ShimmerLabelV2_Example */;
+			productReference = F06294DA57C0B21312C5CE6012206CDE /* Pods_ShimmerLabelV2_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -321,7 +324,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					009A222B6C13674B4D930A4B169AD0FC = {
+						LastSwiftMigration = "";
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -372,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364C61BA298C5FAD000173DA /* ShimmerLabel.swift in Sources */,
 				9A1BDBCC2C17744C61403D8AE4E3930E /* ShimmerLabelV2-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,7 +435,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ShimmerLabelV2_Example/Pods-ShimmerLabelV2_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ShimmerLabelV2_Example/Pods-ShimmerLabelV2_Example.modulemap";
@@ -459,7 +468,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ShimmerLabelV2_Example/Pods-ShimmerLabelV2_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ShimmerLabelV2_Example/Pods-ShimmerLabelV2_Example.modulemap";
@@ -493,7 +502,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ShimmerLabelV2_Tests/Pods-ShimmerLabelV2_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ShimmerLabelV2_Tests/Pods-ShimmerLabelV2_Tests.modulemap";
@@ -526,7 +535,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ShimmerLabelV2_Tests/Pods-ShimmerLabelV2_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ShimmerLabelV2_Tests/Pods-ShimmerLabelV2_Tests.modulemap";
@@ -579,6 +588,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -594,7 +604,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -609,6 +619,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34BC5111F09598ADB8C29D8B43EC8611 /* ShimmerLabelV2.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -621,7 +632,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ShimmerLabelV2/ShimmerLabelV2-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ShimmerLabelV2/ShimmerLabelV2-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ShimmerLabelV2/ShimmerLabelV2.modulemap";
 				PRODUCT_MODULE_NAME = ShimmerLabelV2;
@@ -629,7 +640,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -671,6 +683,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -689,7 +702,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -706,6 +719,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EE30E6A6E3C4A22FDFAD128316FB97B /* ShimmerLabelV2.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -718,7 +732,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ShimmerLabelV2/ShimmerLabelV2-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ShimmerLabelV2/ShimmerLabelV2-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ShimmerLabelV2/ShimmerLabelV2.modulemap";
 				PRODUCT_MODULE_NAME = ShimmerLabelV2;
@@ -726,7 +740,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

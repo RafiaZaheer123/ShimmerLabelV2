@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import ShimmerLabelV2
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleShimmerLabe: ShimmerLabe!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
