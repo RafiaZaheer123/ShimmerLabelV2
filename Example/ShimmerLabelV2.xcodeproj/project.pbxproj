@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		89F95DBC7B57A6528F3F6A32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9F269BED885C23DAF6FB5CF0 /* Pods-ShimmerLabelV2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShimmerLabelV2_Tests.release.xcconfig"; path = "Target Support Files/Pods-ShimmerLabelV2_Tests/Pods-ShimmerLabelV2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B312F45116D271DEECB037B4 /* ShimmerLabelV2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShimmerLabelV2.podspec; path = ../ShimmerLabelV2.podspec; sourceTree = "<group>"; };
+		B312F45116D271DEECB037B4 /* ShimmerLabelV2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShimmerLabelV2.podspec; path = ../ShimmerLabelV2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CD0DBEE90DEF8A4859C0857A /* Pods_ShimmerLabelV2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShimmerLabelV2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
